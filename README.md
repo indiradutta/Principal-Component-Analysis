@@ -21,7 +21,7 @@ Suppose we have a dataset X consisting of m examples and n features or we can sa
       <br>
       This helps us reduce the computation time and increses the computation efficiency.
  * **Step 2 : Finding the Eigen vectors and the Eigen values of the Covariance matrix or undergoing Eigendecomposition.**
-    * We find the Eigen vectors to diagonalise the covariance matrix of X. The Eigen vectors give me the direction along which the transformation of my dataset X took place.          The Eigen values contained in the diagonal elements give me the magnitude of the transformation.
+    * We find the Eigen vectors of the covariance matrix of X to diagonalise the covariance matrix of the dataset transformed from X. The Eigen vectors give me the direction           along which the transformation of my dataset X took place. The Eigen values contained in the diagonal elements give me the magnitude of the transformation.
       <br>
  * **Step 3 : Calculating the cumulative explained variance.**
      * The cumulative explained variance calculated explains how much variance does each feature retain.
