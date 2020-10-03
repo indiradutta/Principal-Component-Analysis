@@ -1,6 +1,8 @@
 # Principal Component Analysis
 Principal Component Ananlysis is a process of computing the "Principal Components" and using them to perform changes in the data. It is a very popular algorithm that is often used in unsupervised learning for dimensionality reduction.
+<br>
 For example :- Suppose I have a a dataset with 'm' data points that are of 'n' dimensions. Dimensionality reduction implies transforming those data points in such a way that they now have a reduced dimension of 'k' for all k<n, without any significant loss of valuable information. 
+<br>
 It can also be defined as projecting the data-points from an n-dimensional data space into a k-dimensional data space without loosing the information they contain.
 This can be achieved through PCA.
 
@@ -14,7 +16,10 @@ Suppose we have a dataset X consisting of m examples and n features or we can sa
     * For this we first need to compute the mean along each column that is the mean for every feature.
     * Then we compute the deviations of my data points from the mean.
     * Then we find out the covariance matrix using the mean and deviations we had calculated.
-      In our code we have used the Standard Scaler function to convert the data into a Standard Normal Distribution by reducing the mean to 0 and the standard deviation to 1.           This helps us reduce the computation time and increses the computation efficiency.
+      <br>
+      In our code we have used the Standard Scaler function to convert the data into a Standard Normal Distribution by reducing the mean to 0 and the standard deviation to 1. 
+      <br>
+      This helps us reduce the computation time and increses the computation efficiency.
 <br>
 
 ![](images/pca_demo.gif)
