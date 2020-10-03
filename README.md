@@ -18,5 +18,5 @@ Suppose we have a dataset X consisting of m examples and n features or we can sa
 
     * Then we find out the covariance matrix from the followiing formula :-
 
-    In our code we have used the Standard Scaler function to convert the data into a Standard Normal Distribution by reducing the mean to 0 and the standard deviation to 1.           This helps us reduce the computation time and increses the computation efficiency. 
+      In our code we have used the Standard Scaler function to convert the data into a Standard Normal Distribution by reducing the mean to 0 and the standard deviation to 1.           This helps us reduce the computation time and increses the computation efficiency. 
    
