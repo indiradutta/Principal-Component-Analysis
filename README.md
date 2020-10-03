@@ -11,12 +11,11 @@ Principal Components can be defined as vectors representing the directions along
 ## The following steps are done in PCA
 Suppose we have a dataset X consisting of m examples and n features or we can say it as, we have m data points that are of n dimensions.
 * **Step 1 : Computing the Covariance Matrix of X**
-    * For this we first need to compute the mean along each column that is the mean for every feature :-
-          
-      Here j is the feature number and i is the example number.
-    * Then we compute the deviations of my data points from the mean :-
+    * For this we first need to compute the mean along each column that is the mean for every feature.
+    * Then we compute the deviations of my data points from the mean.
+    * Then we find out the covariance matrix using the mean and deviations we had calculated.
+      In our code we have used the Standard Scaler function to convert the data into a Standard Normal Distribution by reducing the mean to 0 and the standard deviation to 1.           This helps us reduce the computation time and increses the computation efficiency.
+<br>
 
-    * Then we find out the covariance matrix from the followiing formula :-
-
-      In our code we have used the Standard Scaler function to convert the data into a Standard Normal Distribution by reducing the mean to 0 and the standard deviation to 1.           This helps us reduce the computation time and increses the computation efficiency. 
+![](images/pca_demo.gif)
    
