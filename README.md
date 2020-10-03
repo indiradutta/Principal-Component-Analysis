@@ -12,7 +12,6 @@ Principal Components can be defined as vectors representing the directions along
 Suppose we have a dataset X consisting of m examples and n features or we can say it as, we have m data points that are of n dimensions.
 ### * Step 1 : Computing the Covariance Matrix of X
 ** For this we first need to compute the mean along each coloumn that is the mean for every feature :-
-
    here j is the feature number and i is the example number.
 ** Then we compute the deviations of my data points from the mean :-
 
