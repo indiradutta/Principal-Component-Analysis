@@ -2,7 +2,7 @@
 <br>
 Principal Component Analysis is a process of computing the "Principal Components" and using them to perform changes in the data. It is a very popular algorithm that is often used in unsupervised learning for dimensionality reduction.
 <br>
-For example :- Suppose I have a a dataset with 'm' data points that are of 'n' dimensions. Dimensionality reduction implies transforming those data points in such a way that they now have a reduced dimension of 'k' for all k<n, without any significant loss of valuable information. 
+For example :- Suppose I have a dataset with 'm' data points that are of 'n' dimensions. Dimensionality reduction implies transforming those data points in such a way that they now have a reduced dimension of 'k' for all k<n, without any significant loss of valuable information. 
 <br>
 It can also be defined as projecting the data-points from an n-dimensional data space into a k-dimensional data space without loosing the information they contain.
 This can be achieved through PCA.
