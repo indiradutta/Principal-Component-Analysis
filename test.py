@@ -3,9 +3,7 @@ from sklearn.datasets import load_digits    #we're importing the hand-written di
 from sklearn.model_selection import train_test_split
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import accuracy_score
-from sklearn.utils.testing import ignore_warnings
-from sklearn.exceptions import ConvergenceWarning
-from pca import pca
+from src.pca import pca
 
 digits = load_digits() 
 X = digits.data 
@@ -18,7 +16,6 @@ mlp = MLPClassifier(hidden_layer_sizes=(15,), activation='logistic', alpha=1e-4,
                     solver='sgd', tol=1e-4, random_state=1,
                     learning_rate_init=.1, verbose=True)
 
-@ignore_warnings(category=ConvergenceWarning)
 def test(X_train,y_train,X_test):
   mlp.fit(X_train,y_train)
   y_pred = mlp.predict(X_test)
